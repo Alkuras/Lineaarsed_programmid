@@ -1,0 +1,13 @@
+print() - Kuvame ekraanile tekst	
+input() - Sisetame info ja edastame tekstina
+float() - 
+int() - Konverteerib arvusse
+upper(), 
+lower(), 
+capitalize(), 
+type() näitab tüübi
+math, 
+random
+ pi, 
+ round(),
+ randint()

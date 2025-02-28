@@ -42,3 +42,47 @@ M = float(input("Sisesta teine pool ristküülikus meetris "))
 D2 = float((N**2)+(M**2))
 D= float(sqrt(D2))
 print(f"{D}") 
+
+#Ülesanne 6
+aeg = float(input("Mitu tundi kulus sõiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+kiirus = teepikkus/aeg
+
+print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#Ülesanne 7
+ 
+a1 = randint(0,10)
+a2 = randint(0,10)
+a3 = randint(0,10)
+a4 = randint(0,10)
+a5 = randint(0,10)
+keskmine = (a1+a2+a4+a3+a5)/5
+print(f"Arvud olid: {a1}, {a2}, {a3}, {a4}, {a5}. Nende keskmine on {keskmine}.")
+
+#Ülesanne 8
+
+print("""
+       @..@  
+      (---)
+     ( \_/ )
+    ^^ "" ^^  """)
+print("""  @..@""")
+print(""" (---)""")
+print("""( \_/ )""")
+print("""^^ "" ^^""")
+#Ülesanne 9
+
+a = randint(1,10)
+b = randint(1,10)
+c = randint(1,10)
+ümbermõõt = a+b+c
+print(f"Kolmnurga ümbermõõt on {ümbermõõt}")
+
+#Ülesanne 10
+
+sõbrad = randint(1,5)
+pitsa = 12.90
+tip = pitsa*1.1
+kokku = tip/sõbrad
+print(f"Teid on {sõbrad}, iga üks peab maksma {kokku}")
+
